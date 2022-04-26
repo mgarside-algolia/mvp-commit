@@ -1,1 +1,964 @@
-[{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"that i might like","anchoring":"contains"},"consequence":{"params":{"filters":"categories:Suspense","query":{"edits":[{"type":"remove","delete":"that"},{"type":"remove","delete":"i"},{"type":"remove","delete":"might"},{"type":"remove","delete":"like"}]}}},"objectID":"remove-that-i-might-like","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"books","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"books"}]}}},"objectID":"remove-books","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"book","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"book"}]}}},"objectID":"remove-book","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"enabled":true,"tags":["visual-editor","test","v3"],"conditions":[{"anchoring":"is","pattern":"tablet","alternatives":false}],"consequence":{"promote":[{"objectIDs":["B01DBV1OKY"],"position":0},{"objectIDs":["B06XVNWGRQ"],"position":5}],"filterPromotes":false},"objectID":"qr-oebppbyv-1571260540237-37"},{"_metadata":{"lastUpdate":1650999865},"enabled":true,"condition":{"pattern":"amazon fire","anchoring":"is"},"consequence":{"params":{},"hide":[],"promote":[{"objectID":"B01MXOV9P7","position":0}]},"tags":["visual-editor","v3"],"objectID":"qr-oebppbyv-1569448720514-65"},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"classic","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"classic"}]},"filters":"categories:Classics"}},"objectID":"qr-filter-classics","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"cheap","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"cheap"}]},"filters":"price < 20"}},"objectID":"qr-filter-cheap","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"conditions":[{"context":"test"}],"consequence":{"hide":[{"objectID":"B01J94SWWU"}],"filterPromotes":true},"enabled":true,"objectID":"qr-1637608425418","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"enabled":false,"tags":["visual-editor","v3"],"conditions":[{"anchoring":"is","pattern":"","alternatives":false,"context":"test"}],"consequence":{"promote":[{"objectIDs":["B01J94SWWU"],"position":0}],"filterPromotes":true},"objectID":"qr-1637608122374"},{"_metadata":{"lastUpdate":1650999865},"enabled":false,"tags":["visual-editor","v3"],"conditions":[{"anchoring":"contains","pattern":"tablet","alternatives":true}],"consequence":{"params":{"optionalFilters":["brand:-apple<score=100>"]},"filterPromotes":true},"objectID":"qr-1621958002459"},{"_metadata":{"lastUpdate":1650999865},"enabled":false,"tags":["visual-editor","v3"],"validity":[{"from":1616803200,"until":1616975999}],"conditions":[{"filters":"(\"brand\":\"apple\")"}],"consequence":{"promote":[{"objectIDs":["B00EN1E2TM"],"position":0}],"filterPromotes":true},"objectID":"qr-1616011287829"},{"_metadata":{"lastUpdate":1650999865},"condition":{"pattern":"fire","anchoring":"contains","alternatives":true},"consequence":{"params":{"optionalFilters":"author:R. L. Stine"},"filterPromotes":true},"description":"","objectID":"qr-1577375757963-350","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"a","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"a"}]}}},"objectID":"1540911410215","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"the","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"the"}]}}},"objectID":"1540911394909","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"condition":{"pattern":"{facet:type}","anchoring":"contains"},"consequence":{"params":{"automaticFacetFilters":[{"facet":"type","disjunctive":false}]},"filterPromotes":false},"description":"","objectID":"1540903340126","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"by {facet:brand}","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"by"}]},"automaticOptionalFacetFilters":[{"facet":"brand","disjunctive":false}]}},"objectID":"1540824740623","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"in {facet:categories}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":[{"facet":"categories","disjunctive":false}],"query":{"edits":[{"type":"remove","delete":"in"}]}}},"objectID":"1540824616419","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"by {facet:author}","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"by"}]},"automaticOptionalFacetFilters":[{"facet":"author","disjunctive":false}]}},"objectID":"1540823501790","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:categories} and {facet:categories}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":[{"facet":"categories","disjunctive":false}],"query":{"edits":[{"type":"remove","delete":"and"}]}}},"objectID":"1540823146301","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:color} and {facet:color}","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"and"}]},"automaticOptionalFacetFilters":[{"facet":"color","disjunctive":false}]}},"objectID":"1540823004953","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:categories}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":[{"facet":"categories","disjunctive":false}]}},"objectID":"1540816562040","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:brand}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":[{"facet":"brand","disjunctive":false}]}},"objectID":"1540816535448","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:color}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":[{"facet":"color","disjunctive":false}]}},"objectID":"1540816475330","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"search","anchoring":"startsWith"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"search"}]}}},"objectID":"1540810017806","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"Search for","anchoring":"startsWith"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"Search"},{"type":"remove","delete":"for"}]}}},"objectID":"1540809672691","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"i might like","anchoring":"contains"},"consequence":{"params":{"filters":"categories:Suspense","query":{"edits":[{"type":"remove","delete":"i"},{"type":"remove","delete":"might"},{"type":"remove","delete":"like"}]}}},"objectID":"1534927817305","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"from last year","anchoring":"contains"},"consequence":{"params":{"filters":"pubYear:2017","query":{"edits":[{"type":"remove","delete":"from"},{"type":"remove","delete":"last"},{"type":"remove","delete":"year"}]}}},"objectID":"1534927642167","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"from this year","anchoring":"contains"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"from"},{"type":"remove","delete":"this"},{"type":"remove","delete":"year"}]},"filters":"pubYear:2018"}},"objectID":"1534927586656","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"find","anchoring":"startsWith"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"find"}]}}},"objectID":"1534926566831","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"show","anchoring":"startsWith"},"consequence":{"params":{"query":{"edits":[{"type":"remove","delete":"show"}]}}},"objectID":"1534926442524","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"photography","condition":{"pattern":"photography","anchoring":"is"},"consequence":{"userData":{"isPhotography":true},"promote":[{"objectID":"500201870","position":0},{"objectID":"935398236","position":1},{"objectID":"186450207","position":2},{"objectID":"1250058902","position":3}]},"objectID":"1520527632116","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"Promote 3 Pack","condition":{"pattern":"horror","anchoring":"is"},"consequence":{"promote":[{"objectID":"517219026","position":0}]},"objectID":"1517417830313","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:author}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":["author"]}},"objectID":"1513606234654","tags":["v3"]},{"_metadata":{"lastUpdate":1650999865},"description":"","condition":{"pattern":"{facet:author}","anchoring":"contains"},"consequence":{"params":{"automaticOptionalFacetFilters":["author"]}},"objectID":"1512660993171","tags":["v3"]}]
+[
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "that i might like",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "filters": "categories:Suspense",
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "that"
+            },
+            {
+              "type": "remove",
+              "delete": "i"
+            },
+            {
+              "type": "remove",
+              "delete": "might"
+            },
+            {
+              "type": "remove",
+              "delete": "like"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "remove-that-i-might-like",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "books",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "books"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "remove-books",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "book",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "book"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "remove-book",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "enabled": true,
+    "tags": [
+      "visual-editor",
+      "test",
+      "v3"
+    ],
+    "conditions": [
+      {
+        "anchoring": "is",
+        "pattern": "tablet",
+        "alternatives": false
+      }
+    ],
+    "consequence": {
+      "promote": [
+        {
+          "objectIDs": [
+            "B01DBV1OKY"
+          ],
+          "position": 0
+        },
+        {
+          "objectIDs": [
+            "B06XVNWGRQ"
+          ],
+          "position": 5
+        }
+      ],
+      "filterPromotes": false
+    },
+    "objectID": "qr-oebppbyv-1571260540237-37"
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "enabled": true,
+    "condition": {
+      "pattern": "amazon fire",
+      "anchoring": "is"
+    },
+    "consequence": {
+      "params": {},
+      "hide": [],
+      "promote": [
+        {
+          "objectID": "B01MXOV9P7",
+          "position": 0
+        }
+      ]
+    },
+    "tags": [
+      "visual-editor",
+      "v3"
+    ],
+    "objectID": "qr-oebppbyv-1569448720514-65"
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "classic",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "classic"
+            }
+          ]
+        },
+        "filters": "categories:Classics"
+      }
+    },
+    "objectID": "qr-filter-classics",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "cheap",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "cheap"
+            }
+          ]
+        },
+        "filters": "price < 20"
+      }
+    },
+    "objectID": "qr-filter-cheap",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "conditions": [
+      {
+        "context": "test"
+      }
+    ],
+    "consequence": {
+      "hide": [
+        {
+          "objectID": "B01J94SWWU"
+        }
+      ],
+      "filterPromotes": true
+    },
+    "enabled": true,
+    "objectID": "qr-1637608425418",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "enabled": false,
+    "tags": [
+      "visual-editor",
+      "v3"
+    ],
+    "conditions": [
+      {
+        "anchoring": "is",
+        "pattern": "",
+        "alternatives": false,
+        "context": "test"
+      }
+    ],
+    "consequence": {
+      "promote": [
+        {
+          "objectIDs": [
+            "B01J94SWWU"
+          ],
+          "position": 0
+        }
+      ],
+      "filterPromotes": true
+    },
+    "objectID": "qr-1637608122374"
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "enabled": false,
+    "tags": [
+      "visual-editor",
+      "v3"
+    ],
+    "conditions": [
+      {
+        "anchoring": "contains",
+        "pattern": "tablet",
+        "alternatives": true
+      }
+    ],
+    "consequence": {
+      "params": {
+        "optionalFilters": [
+          "brand:-apple<score=100>"
+        ]
+      },
+      "filterPromotes": true
+    },
+    "objectID": "qr-1621958002459"
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "enabled": false,
+    "tags": [
+      "visual-editor",
+      "v3"
+    ],
+    "validity": [
+      {
+        "from": 1616803200,
+        "until": 1616975999
+      }
+    ],
+    "conditions": [
+      {
+        "filters": "(\"brand\":\"apple\")"
+      }
+    ],
+    "consequence": {
+      "promote": [
+        {
+          "objectIDs": [
+            "B00EN1E2TM"
+          ],
+          "position": 0
+        }
+      ],
+      "filterPromotes": true
+    },
+    "objectID": "qr-1616011287829"
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "condition": {
+      "pattern": "fire",
+      "anchoring": "contains",
+      "alternatives": true
+    },
+    "consequence": {
+      "params": {
+        "optionalFilters": "author:R. L. Stine"
+      },
+      "filterPromotes": true
+    },
+    "description": "",
+    "objectID": "qr-1577375757963-350",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "a",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "a"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540911410215",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "the",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "the"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540911394909",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "condition": {
+      "pattern": "{facet:type}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticFacetFilters": [
+          {
+            "facet": "type",
+            "disjunctive": false
+          }
+        ]
+      },
+      "filterPromotes": false
+    },
+    "description": "",
+    "objectID": "1540903340126",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "by {facet:brand}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "by"
+            }
+          ]
+        },
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "brand",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540824740623",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "in {facet:categories}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "categories",
+            "disjunctive": false
+          }
+        ],
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "in"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540824616419",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "by {facet:author}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "by"
+            }
+          ]
+        },
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "author",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540823501790",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:categories} and {facet:categories}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "categories",
+            "disjunctive": false
+          }
+        ],
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "and"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540823146301",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:color} and {facet:color}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "and"
+            }
+          ]
+        },
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "color",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540823004953",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:categories}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "categories",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540816562040",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:brand}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "brand",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540816535448",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:color}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          {
+            "facet": "color",
+            "disjunctive": false
+          }
+        ]
+      }
+    },
+    "objectID": "1540816475330",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "search",
+      "anchoring": "startsWith"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "search"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540810017806",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "Search for",
+      "anchoring": "startsWith"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "Search"
+            },
+            {
+              "type": "remove",
+              "delete": "for"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1540809672691",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "i might like",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "filters": "categories:Suspense",
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "i"
+            },
+            {
+              "type": "remove",
+              "delete": "might"
+            },
+            {
+              "type": "remove",
+              "delete": "like"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1534927817305",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "from last year",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "filters": "pubYear:2017",
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "from"
+            },
+            {
+              "type": "remove",
+              "delete": "last"
+            },
+            {
+              "type": "remove",
+              "delete": "year"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1534927642167",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "from this year",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "from"
+            },
+            {
+              "type": "remove",
+              "delete": "this"
+            },
+            {
+              "type": "remove",
+              "delete": "year"
+            }
+          ]
+        },
+        "filters": "pubYear:2018"
+      }
+    },
+    "objectID": "1534927586656",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "find",
+      "anchoring": "startsWith"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "find"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1534926566831",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "show",
+      "anchoring": "startsWith"
+    },
+    "consequence": {
+      "params": {
+        "query": {
+          "edits": [
+            {
+              "type": "remove",
+              "delete": "show"
+            }
+          ]
+        }
+      }
+    },
+    "objectID": "1534926442524",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "photography",
+    "condition": {
+      "pattern": "photography",
+      "anchoring": "is"
+    },
+    "consequence": {
+      "userData": {
+        "isPhotography": true
+      },
+      "promote": [
+        {
+          "objectID": "500201870",
+          "position": 0
+        },
+        {
+          "objectID": "935398236",
+          "position": 1
+        },
+        {
+          "objectID": "186450207",
+          "position": 2
+        },
+        {
+          "objectID": "1250058902",
+          "position": 3
+        }
+      ]
+    },
+    "objectID": "1520527632116",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "Promote 3 Pack",
+    "condition": {
+      "pattern": "horror",
+      "anchoring": "is"
+    },
+    "consequence": {
+      "promote": [
+        {
+          "objectID": "517219026",
+          "position": 0
+        }
+      ]
+    },
+    "objectID": "1517417830313",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:author}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          "author"
+        ]
+      }
+    },
+    "objectID": "1513606234654",
+    "tags": [
+      "v3"
+    ]
+  },
+  {
+    "_metadata": {
+      "lastUpdate": 1650999865
+    },
+    "description": "",
+    "condition": {
+      "pattern": "{facet:author}",
+      "anchoring": "contains"
+    },
+    "consequence": {
+      "params": {
+        "automaticOptionalFacetFilters": [
+          "author"
+        ]
+      }
+    },
+    "objectID": "1512660993171",
+    "tags": [
+      "v3"
+    ]
+  }
+]
